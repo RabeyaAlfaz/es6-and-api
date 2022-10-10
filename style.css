@@ -1,0 +1,47 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-style: 1.5rem;
+}
+.show-btn{
+    margin-bottom: 20px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 
+    10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.album{
+    display: grid;
+    grid-gap: 2rem;
+    align-items: center;
+grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+}
+.album-item{
+    padding:10px;
+    background-color: transparent;
+    background-color: rgb(29, 16, 106);
+    color: aliceblue;
+    height:50vh;
+}
+
+.add-container{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    margin-top: 200px;
+}
+.item-con{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
+}
+.item-con h2{
+    margin-top: 10px;
+}
